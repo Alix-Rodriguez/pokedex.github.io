@@ -1,0 +1,29 @@
+:root {
+
+    background-image: url(./assets/poke1.jpg);
+    background-size: cover;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    animation: fondo 20s linear infinite 1s alternate;
+    overflow: hidden;
+} 
+
+
+@keyframes fondo{
+    25% {
+        background-image: url(./assets/poke1.jpg);
+    }
+    50% {
+        background-image: url(./assets/poke2.png);    
+    }
+    75%{
+        background-image: url(./assets/poke3.png);    
+    }
+    100%{
+        background-image: url(./assets/poke4.jpg);
+    }
+
+
+}
+
+
