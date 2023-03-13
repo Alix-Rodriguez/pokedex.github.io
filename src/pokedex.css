@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Tourney:ital,wght@1,900&display=swap");
 
+/* ESTILOS DE LA POKEDEX */
 * {
   margin: 0;
   padding: 0;
@@ -724,12 +725,23 @@
     transform: translateX(5rem);
     --trasAfter: -9.9rem;
   }
+  .buscar input {
+    width: 4.5rem;
+    font-size: 0.5rem;
+  }
+  .adv{
+    font-size: 0.5rem;
+  }
+
 }
 
 @media (max-width: 410px) {
   .conTrans {
     transform: translateX(5rem);
     --trasAfter: -9.2rem;
+  }
+  .adv{
+    font-size: 0.5rem;
   }
   .play2 {
     transform: translateY(2rem) translateX(-9rem);
